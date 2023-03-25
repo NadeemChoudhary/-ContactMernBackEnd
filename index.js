@@ -10,7 +10,7 @@ const {  ProductRouter } = require('./Routes/ProductRoute');
 server.use(express.json());
 server.use(cors());
 
-
+    
 
 // console.log(ProductsRouter)
 server.use('/products', ProductRouter);

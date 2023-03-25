@@ -7,7 +7,7 @@ ProductRouter
     .get('/:id', func.singleProducts)
     .post('/add', func.add)
     .put('/update/:id', func.Update)
-    .patch('/update/:id', func.Reupdate)
+    .put('/update/:id', func.Reupdate)
     .delete('/delete/:id', func.Delete);
 
 module.exports = { ProductRouter }
